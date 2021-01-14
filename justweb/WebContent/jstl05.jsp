@@ -1,10 +1,13 @@
-<!-- http://tomcat.apache.org/download-taglibs.cgi 여기서 위에 파일 세개 받아서 WEB_INF에 넣어야 jstl사용가  -->
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<c:set var="value1" scope="request" value="Lee"/>
+<%-- <%
+	request.setAttribute("n",10);
+%> --%>
 
+<%-- <c:import url="http://localhost:8080/justweb/jstlValue.jsp" var="urlValue" scope="request"></c:import> --%>
+<c:import url="https://www.naver.com/" var="urlValue" scope="request"></c:import>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,8 +15,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	sex: ${value1 } <br/>
-	<c:remove var="value1" scope="request"/>
-	sex: ${value1 } <br/>
+	<h1>${urlValue }</h1>
 </body>
 </html>
