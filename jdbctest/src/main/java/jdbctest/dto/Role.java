@@ -31,20 +31,20 @@ public class Role {
 	/**
 	 * @return the description
 	 */
-	public String getDiscription() {
+	public String getDescription() {
 		return description;
 	}
 
 	/**
-	 * @param discription the description to set
+	 * @param description the description to set
 	 */
-	public void setDiscription(String discription) {
-		this.description = discription;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 	@Override
 	public String toString() {
-		return "Role [roleId=" + roleId + ", discription=" + description + "]";
+		return "Role [roleId=" + roleId + ", description=" + description + "]";
 	}
 
 }
