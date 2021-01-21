@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>kr.or.connect</groupId>
-	<artifactId>mavenweb</artifactId>
+	<groupId>ga.fumyparli</groupId>
+	<artifactId>webapiexam</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mavenweb Maven Webapp</name>
+	<name>webapiexam Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<!-- web.xml 파일을 삭제해도 eclipse에서 오류가 발생하지 않는다. -->
