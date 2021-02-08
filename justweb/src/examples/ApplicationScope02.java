@@ -36,7 +36,7 @@ public class ApplicationScope02 extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		ServletContext application = getServletContext();
 		try {
-			int value = (int) application.getAttribute("value");
+			int value = (int) application.getAttribute("value" + "");
 			value++;
 			application.setAttribute("value", value);
 			out.println("<h1>value: " + value + "</h1>");
