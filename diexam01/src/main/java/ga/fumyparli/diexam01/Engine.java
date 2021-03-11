@@ -1,5 +1,8 @@
 package ga.fumyparli.diexam01;
 
+import org.springframework.stereotype.*;
+
+@Component
 public class Engine {
 	public Engine() {
 		System.out.println("Engine 생성자");
